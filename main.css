@@ -11,15 +11,45 @@ body {
     font-size: 1rem;
     background-color: white;
     color: black;
+    width: 100%;
 }
 
-.header-container {
+span {
+    font-weight: bold;
+}
+
+.landing-container {
+    width: 375px;
+    height: 80vh;
+    
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.landingbox {
+    margin-top: 2rem;
+}
+
+.footer-container {
+    width: 375px;
+    height: 235px;
+    background-color: #292929;
+    color: white;
+    border: 2px solid black;
+}
+
+
+
+
+
+/* .header-container {
     height: 60vh;
     background-image: url(./assets/bilder/header.png.png);
     background-size: cover;
-    /* background-position: center;
+    background-position: center;
     display: flex;
-    justify-content: center; */
+    justify-content: center;
     border: 2px solid blue;
 }
 
@@ -39,7 +69,7 @@ body {
 .introbox {
     position: relative;
     border: 2px solid red;
-}
+} */
 
 
 
