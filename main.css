@@ -7,11 +7,11 @@
 }
 
 body {
+    width: 100%;
     font-family: "Montserrat";
     font-size: 1rem;
     background-color: white;
     color: black;
-    width: 100%;
 }
 
 span {
@@ -21,7 +21,10 @@ span {
 .landing-container {
     width: 375px;
     height: 80vh;
-    
+    background-image: url(./assets/bilder/header.png.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 2px solid black;
     display: flex;
     justify-content: center;
