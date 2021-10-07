@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.header-container {
+    height: 60vh;
+    background-image: url(./assets/bilder/header.png.png);
+    background-size: cover;
+    /* background-position: center;
+    display: flex;
+    justify-content: center; */
+    border: 2px solid blue;
+}
+
+.headerbox {
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+
+.box1, .box2 {
+    align-self: flex-end;
+}
+
+.header {
+    position: relative;
+}
+
+.introbox {
+    position: relative;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+/* .info-container {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+}
+.youtubability-container {
+    display: flex;
+    border: 2px solid black;
+}
+
+.youtubability {
+    width: 50%;
+    border: 2px solid black;
+} */
